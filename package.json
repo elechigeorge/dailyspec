@@ -1,0 +1,25 @@
+{
+  "name": "dailyspec",
+  "version": "1.0.0",
+  "description": "todo app for daily activities",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "app": "node server.js"
+  },
+  "keywords": [
+    "developer"
+  ],
+  "author": "Elechi George",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.12",
+    "mongoose-timestamp": "^0.6.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
